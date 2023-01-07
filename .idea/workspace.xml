@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76e662d6-0bc1-41dd-8a49-78a9492eb367" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotation/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotation/Inject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/annotation/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/di/BeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/UserService.java" afterDir="false" />
+    <list default="true" id="76e662d6-0bc1-41dd-8a49-78a9492eb367" name="Changes" comment="fe">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/di/BeanFactoryUtils.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/org/example/di/BeanFactoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/di/BeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/di/BeanFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +63,36 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="BeanFactoryTest.diTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.di.BeanFactoryTest.diTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.BeanFactoryTest.diTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -78,6 +102,18 @@
       <option name="presentableId" value="Default" />
       <updated>1673116964134</updated>
     </task>
+    <task id="LOCAL-00001" summary="feat : annotation, controller, service class 구현">
+      <created>1673119195546</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673119195547</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat : annotation, controller, service class 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : annotation, controller, service class 구현" />
   </component>
 </project>
