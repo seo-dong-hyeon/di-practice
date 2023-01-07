@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76e662d6-0bc1-41dd-8a49-78a9492eb367" name="Changes" comment="fe">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/di/BeanFactoryUtils.java" afterDir="false" />
+    <list default="true" id="76e662d6-0bc1-41dd-8a49-78a9492eb367" name="Changes" comment="test : BeanFactory 테스트 코드 추가&#10;&#10;annotationㅇ">
       <change afterPath="$PROJECT_DIR$/src/test/java/org/example/di/BeanFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/di/BeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/di/BeanFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,11 +106,19 @@
       <option name="project" value="LOCAL" />
       <updated>1673119195547</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat : BeanFactory 기능 구현">
+      <created>1673120444375</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673120444375</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat : annotation, controller, service class 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : annotation, controller, service class 구현" />
+    <MESSAGE value="feat : BeanFactory 기능 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : BeanFactory 기능 구현" />
   </component>
 </project>
